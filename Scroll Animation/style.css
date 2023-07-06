@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNfuKbESV1L6_bUJBbn04goP7oArWsSShX13MiDH3qIGG-TC5ymMB7BGvFc0U0f98TpWY&usqp=CAU');
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 5px;
+    background-color:rgb(255 255 98 / 0.75);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: rgba(235, 235, 12, 0.75);
+    color: black;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+p {
+    font-size: 13px;
+    margin: 0 20px;
+    background-color:rgb(255 255 98 / 0.6);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.lager {
+    background: url('https://www.liquor.com/thmb/qmWNckdSdlqoVjN5xjTnCU6MEMo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-517501476-2795937cf2c34b65b04f29f1a2697fa2.jpg') no-repeat top center/cover;
+}
+
+.pilsner {
+    background: url('https://images.squarespace-cdn.com/content/v1/53e15485e4b068f76d2b172e/1555098857555-NY7SKPNDC54SO5MIPEIV/svetly.jpg') no-repeat center center/cover;
+}
+
+.amrerican_lager {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPyHe1DVgf0fN7npJkztdKFgrzrhxjefwvTbfv9UhB7McnJS0-LnS6goRZSMsg3o1-W_o&usqp=CAU') no-repeat center center/cover;
+}
+
+.ale {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7tXj0eBFWvzQgikiHtmxPyZczvAG-HCtK63fjdzSfls8-pFwFeeNV1biDw49hFaA5wA&usqp=CAU') no-repeat center center/cover;
+}
+
+.porter {
+    background: url('https://www.unknownbrewing.com/wp-content/uploads/2022/11/Porter-Beer-Guide-History-Styles-Serving-Pairings-1.jpg') no-repeat top center/cover;
+}
+
+.stout {
+    background: url('https://www.foodandwine.com/thmb/P4DleMpePxXVdZtPLsrTDFck04E=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/stout-beer-blog1117-e4c0fa0d9d6b498e89e73484d623dac3.jpg') no-repeat center center/cover;
+}
+
+.blonde_ale {
+    background: url('https://cdn.shortpixel.ai/spai/q_lossless+w_1000+to_webp+ret_img/https://imbibemagazine.com/wp-content/uploads/2017/05/real-ale-firemans-no-4-draft2-crdt-max-kelly.jpg') no-repeat center center/cover;
+}
+
+.brown_ale {
+    background: url('https://www.wineenthusiast.com/wp-content/uploads/2022/09/03_22_Brown_Ale_Roundup_HERO_GettyImages-598085970_1920x1280-1280x853.jpg') no-repeat top center/cover;
+}
+
+.pale_ale {
+    background: url('https://pivo.by/images/2018/05/hazy-ipa-1.jpg') no-repeat top center/cover;
+}
+
+.india_pale_ale {
+    background: url('https://th-thumbnailer.cdn-si-edu.com/_l96Vly_jXSKbfMo0jsjRHnZxh8=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/bf/8d/bf8d45ac-3c9b-4c22-a2f5-98015a9d1615/42-69504059.jpg') no-repeat top center/cover;
+}
+
+.wheat {
+    background: url('https://winning-homebrew.com/wp-content/uploads/2022/01/How-To-Make-Wheat-Beer-1024x682.jpg.webp') no-repeat top center/cover;
+}
+
+.sour_ale {
+    background: url('https://6632597.fs1.hubspotusercontent-na1.net/hub/6632597/hubfs/Blog/Kegworks-Sour-Beer-Guide-1.jpg?width=2048&name=Kegworks-Sour-Beer-Guide-1.jpg') no-repeat center center/cover;
+}
+
+.box {
+    background-color: steelblue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(600%);
+    transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+
+.box.show {
+    transform: translateX(0);
+}
+
+.box h2 {
+    font-size: 45xp;
+}
