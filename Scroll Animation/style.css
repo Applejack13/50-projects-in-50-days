@@ -5,7 +5,8 @@
 }
 
 body {
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNfuKbESV1L6_bUJBbn04goP7oArWsSShX13MiDH3qIGG-TC5ymMB7BGvFc0U0f98TpWY&usqp=CAU');
+    /* background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNfuKbESV1L6_bUJBbn04goP7oArWsSShX13MiDH3qIGG-TC5ymMB7BGvFc0U0f98TpWY&usqp=CAU'); */
+    background-color: #fff;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
